@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    
+<!-- 
+    rules ada 3 , rows, cols, all 
+    cellpadding jarak teks dengan garis border
+    cellspacing jarak antar garis border
+ -->
+
+
+
+<table rules="all"  cellpadding="10" align="center">
+    <caption>tabel-rules-all</caption>
+    <tr>
+        <th>Front end dev</th>
+        <th>Back and dev</th>
+        <th>mobile app dev</th>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>Node.js</td>
+        <td>Kotlin</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>PHP</td>
+        <td>Phyton</td>
+    </tr>
+    <tr>
+        <td>Javascript</td>
+        <td>Sql</td>
+        <td>Android Studio</td>
+    </tr>
+
+</table>
+
+<br><br><br><br>
+
+<table border="1" cellspacing="1" cellpadding="10" align="center">
+    <caption>Table-Border</caption>
+    <tr>
+        <th>Front end dev</th>
+        <th>Back and dev</th>
+        <th>mobile app dev</th>
+    </tr>
+    <tr>
+        <td>HTML</td>
+        <td>Node.js</td>
+        <td>Kotlin</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>PHP</td>
+        <td>Phyton</td>
+    </tr>
+    <tr>
+        <td>Javascript</td>
+        <td>Sql</td>
+        <td>Android Studio</td>
+    </tr>
+
+</table>
+<br><br>
+
+<table border="1" cellspacing="1" cellpadding="10" align="center">
+    <caption>Colspan dan Rowspan</caption>
+
+    <!-- 
+    colspan itu gabungkan cell kesamping
+    kalau rowspan kebawah, sedangkan nilainya yaitu jumlah cell yang akan di gabungkan.
+    abaikan tabel data yang ku komen
+    -->
+
+    <tr>
+        <th> judul 1</th>
+        <th> judul 2</th>
+        <th> judul 3</th>
+    </tr>
+    <tr>
+        <td colspan="2">baris 1 kolom 2</td>
+        <!-- <td>baris 2 kolom 2</td> -->
+        <td>baris 3 kolom 2</td>
+    </tr>
+    <tr>
+        <td>baris 1 kolom 3</td>
+        <td>baris 2 kolom 3</td>
+        <td>baris 3 kolom 3</td>
+    </tr>
+    <tr>
+        <td>baris 1 kolom 4</td>
+        <td rowspan="3">baris 2 kolom 4</td>
+        <td>baris 3 kolom 4</td>
+    </tr>
+    <tr>
+        <td>baris 1 kolom 5</td>
+        <!-- <td>baris 2 kolom 5</td> -->
+        <td>baris 3 kolom 5</td>
+    </tr>
+    <tr>
+        <td>baris 1 kolom 6</td>
+        <!-- <td>baris 2 kolom 6</td> -->
+        <td>baris 3 kolom 6</td>
+    </tr>
+</table>
+
+</body>
+</html>
