@@ -1,0 +1,26 @@
+.container {
+    width:200px;
+    height:20px;
+    background-color: #ddd;
+    margin:50px auto;
+    border-radius: 10px;
+}
+
+.loader {
+    width:10px;
+    height:20px;
+    background-color: #3498db;
+    border-radius: 10px;
+
+    animation:loading 2s linear infinite reverse;
+
+}
+
+@keyframes loading {
+    0% {
+        width:0;
+    }
+    50%{
+        width:200px;
+    }
+}

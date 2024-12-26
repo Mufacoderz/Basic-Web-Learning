@@ -1,0 +1,15 @@
+p, h1, ul li {
+    display:inline-block;
+}
+
+/* p h1 ul li dll yang awalnya selalu dibuat kebawah(display block bisa dijadikan inline dgn property display, ataupun sebaliknya */
+
+a {
+    color:aquamarine;
+}
+
+ul li {
+    background-color: brown;
+    width:50px;
+    height:50px;
+}

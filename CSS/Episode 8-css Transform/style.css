@@ -1,0 +1,23 @@
+.kotak1, .kotak2, .kotak3, .kotak4 {
+    width:200px;
+    height:100px;
+    background-color: salmon;
+    margin:50px auto;
+    transition: 1s;
+}
+
+.kotak1:hover {
+    background-color: teal;
+    transform: scale(1.3);
+}
+.kotak2:hover {
+    transform: rotate(45deg);
+    background-color: red;
+}
+.kotak3:hover {
+    transform: translate(50px,20px);
+    background-color: green;
+}
+.kotak4:hover {
+    transform:skew(20deg)
+}

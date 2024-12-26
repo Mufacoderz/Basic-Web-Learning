@@ -1,0 +1,25 @@
+
+article {
+    margin:auto;
+}
+p {
+    padding: 10px;
+}
+.satu {
+    width:300px;
+    height:200px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+.dua {
+    width:300px;
+    height:200px;
+    background-color: darkorange;
+    overflow:hidden;
+}
+.tiga {
+    width:300px;
+    height:200px;
+    background-color: rgb(59, 48, 11);
+    overflow: scroll;
+}

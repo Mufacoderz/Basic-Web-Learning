@@ -1,0 +1,12 @@
+/* setiap awal kata jadi kapital */
+.satu {
+    text-transform: capitalize;
+}
+/* hurufkapital semua */
+.dua {
+    text-transform: uppercase;
+}
+/* huruf kecil semua */
+.tiga {
+    text-transform: lowercase;
+}

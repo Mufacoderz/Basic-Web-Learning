@@ -1,0 +1,30 @@
+/* tag selector */
+h2 {
+    color :aquamarine;
+}
+p {
+    color :brown;
+}
+
+/* class selector, harus di awali tanda titik baru masukkan nama class nya */
+.judul1 {
+    color:blueviolet;
+}
+.isi1 {
+    color:red;
+}
+.judul2 {
+    background-color: aquamarine;
+    color:red;
+}
+.isi2 {
+    color:green;
+}
+
+/* id selector */
+#head {
+    color:yellowgreen;
+}
+#paraf {
+    color:darkcyan
+}

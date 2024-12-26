@@ -1,0 +1,19 @@
+
+.container{
+    margin:auto;
+    border: 5px solid black;
+    width:400px;
+}
+
+.kotak1,.kotak2 {
+    background-color: aqua;
+    margin:5px;
+    width:300px;
+}
+
+.kotak1 {
+    padding:10px;
+    box-sizing:border-box
+}
+
+/* fungsi box sizing itu mempertahankan ukuran kotaknya, tes aja supaya lebih jelas */

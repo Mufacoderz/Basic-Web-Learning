@@ -1,0 +1,9 @@
+.p1 {
+    line-height: 30px;
+}
+/* line height itu jarak antar baris */
+
+.p2 {
+    text-indent: 40px;
+}
+/* indent untuk mengatur baris pertama , seperti paragraf baru */

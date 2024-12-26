@@ -1,0 +1,8 @@
+.box {
+    background-color: salmon;
+    width:200px;
+    height:200px;
+    margin:50px auto;
+    /* box shadow: offset-x offset-y blur-radius spread color */
+    box-shadow:10px 10px 30px 10px teal ;
+}

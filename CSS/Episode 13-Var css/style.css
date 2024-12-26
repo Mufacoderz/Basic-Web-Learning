@@ -1,0 +1,16 @@
+:root{
+    --var-warna-hitam:black;
+    --var-warna-hitam-pudar:rgb(20, 20, 20);
+    --var-warna-biru:lightblue;
+}
+
+/* --var-nama-variabel-terserah:nilai; */
+
+.container{
+    width:400px;
+    border: 2px solid var(--var-warna-hitam);
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--var-warna-hitam-pudar);
+    color: var(--var-warna-biru);
+}

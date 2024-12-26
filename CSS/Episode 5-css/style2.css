@@ -1,0 +1,35 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+/* selector bintang itu selector universal atau untuk milih semuanya */
+
+p {
+    background-color: red;
+    width:200px;
+}
+
+.p1 {
+    margin-top:40px;
+    margin-left: 160px;
+    padding:15px;
+}
+
+.p2 {
+    margin-top:40px;
+    margin-left: 100px;
+    padding:25px;
+}
+
+.p3 {
+    margin-top:20px;
+    margin-left: 250px;
+    padding:5px;
+}
+
+.container {
+    background-color: aqua;
+    width:500px;
+    margin:20px;
+    padding-top:20px;
+}

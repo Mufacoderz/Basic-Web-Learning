@@ -1,0 +1,27 @@
+
+
+.kotak1:hover {
+    background-color: blue;
+    transform: rotate(45deg);
+    margin-left: 200px;
+}
+
+/* transisi properti itu menetukan properti apa yang akan diberi transisi
+kalau transisi delay itu delay ketika di hover
+*/
+.kotak1 {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin:100px;
+    /* transition-duration: 1s;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out; */
+
+    /* properti di atas bisa disingkat menjadi..... */
+
+    transition: 1s all 0.1s ease-in-out;
+
+}
+

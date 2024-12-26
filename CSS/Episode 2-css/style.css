@@ -1,0 +1,37 @@
+/*  gunakan koma untuk mengabungkan 2 tag/class */
+h2, p {
+    color:blue;
+}
+
+/* Pseudo class selector :
+:link
+style default pada link
+
+:visited
+style ketika link sudah pernah dikunjungi
+
+:hover
+style ketika kursor mouse berada di atas link
+
+:aktive
+style ketika link dalam keadaan aktif
+*/
+
+.nav:link {
+    color:red;
+}
+.nav:visited{
+    color:green;
+}
+.nav:hover {
+    background-color: aqua;
+    color:white;
+}
+.nav:active {
+    color:yellow;
+}
+
+ul li a:hover {
+    background-color: blue;
+    color: brown;
+}

@@ -1,0 +1,13 @@
+
+/* p cite maksudnya tag cite didalam tag p, hubungkan dengan spasi */
+p cite {
+    color:blue;
+}
+
+blockquote cite {
+    color:aqua;
+}
+
+article p {
+    font-size: 24px;
+}

@@ -1,0 +1,38 @@
+.animasi {
+    width: 300px;
+    height: 70px;
+    background-color: salmon;
+    margin: 30px;
+
+    animation-name: warna; /*namenya harus sesuai nama keyframe*/
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; /* ini untuk nentukn jumlah perulangannya*/
+    animation-direction: alternate;
+
+/* 
+animasinya bisa disingkat juga menjadi
+animation: warna 5s linear infinite alternate; 
+*/
+}
+
+/* @keyframes itu fungsinya memberitahu web browser bahwa itu adalah kumpulan blok kode untuk membuat animasi dan juga harus diberi nama misal= warna */
+@keyframes warna {
+    /* contoh tahap perubahan */
+    0% {
+        background-color: red;
+        width: 100px;
+    }
+    30% {
+        background-color: blue;
+        width: 300px;
+    }
+    80% {
+        background-color: yellow;
+        width:500px;
+    }
+    100% {
+        background-color:black;
+        width: 1000px;
+    }
+}

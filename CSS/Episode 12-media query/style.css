@@ -1,0 +1,29 @@
+
+
+/* tampilan desktop */
+@media only screen and (min-width:800px) {
+    .box {
+        background-color: teal;
+        width:100%;
+        height:100px;
+    } 
+}
+
+/* tampilan tablet */
+@media only screen and (min-width:501px) and (max-width:799px) {
+    .box {
+        background-color: salmon;
+        width:100%;
+        height:100px;
+    } 
+}
+
+/* tampilan hp */
+@media only screen and (max-width:500px) {
+    .box {
+        background-color: gold;
+        width:100%;
+        height:100px;
+    } 
+}
+

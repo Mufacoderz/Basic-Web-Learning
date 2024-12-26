@@ -1,0 +1,95 @@
+.container {
+    width:500px;
+    /* height: 500px; */
+    border: 3px solid;
+    margin: 50px auto;
+    display: flex;
+
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content:stretch;
+
+
+    /* align-content: ;
+    harus flex-wrap:wrap;
+    danjuga berfungsi jika terdapat lebih dari satu baris item.
+    mirip align-items.
+    */
+
+
+    /* align-items: ;
+    gunanya ngatur posisi secara vertikal.
+    nilainya center, flex-start, flex-end dll
+     */
+
+
+    /* justify-content:
+    flex-start=itemnya disisi kiri
+
+    center=itemnnya ditengah
+
+    flex-end=itemnya di sisi kanan
+
+    space-between= posisinya rata kanan kiri tapi dikasih jarak antar itemnya.
+
+    space-evenly=mirip sama between , tapi jarak item dengan containernya sama dengan jarak antar item.
+    */
+
+
+    /* flex-direction: ;
+    column= itemnya kebawah
+    row= itemnnya kesamping
+    column-reverse
+    row-reverse
+    
+    */
+
+
+    /* flex-wrap: ;
+    nilai pertama yaitu nowrap = jika itemnya ada banyak, maka ukuran containernya akan tetap , hanya itemnya saja yang dikecilkan agar muat.
+
+    nilai kedua yaitu wrap = jika itemnya banyak, maka containernya akan membesar untuk menampung semua itemnya, sehingga itemnya tidak berubah ukuran.
+
+    nilai ketiga yaitu wrap-reverse =seperti wrap, hanya saja item pertamanya berada di baris akhir
+    */
+}
+.box-1, .box-2, .box-3, .box-4{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+}
+
+
+/* order ini gunanya untuk membuat urtan posisinya */
+/* .box-1{
+    order: 4;
+}
+.box-2{
+    order: 1;
+}
+.box-3{
+    order: 2;
+}
+.box-4{
+    order: 3;
+} */
+
+
+
+/* flex ini untu mengatur ukuran itemnya, jika 2 maka uk nya 2 kali lipat */
+/* .box-1{
+    flex: 1;
+}
+.box-3{
+    flex:2;
+} */
+
+
+
+
+/* , .box-5, .box-6, .box-7, .box-8  */
